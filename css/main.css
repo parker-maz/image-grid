@@ -49,3 +49,15 @@ section > div:last-child  {
     width: 50%;
   }
 }
+
+@media only screen and (min-width: 38em){
+  section > div:nth-child(5) {
+    display: none;
+  }
+
+  section > div:nth-child(2),
+  div:nth-child(3),
+  div:nth-child(4) {
+    width: 33.333%;
+  }
+}
