@@ -48,6 +48,7 @@ section > .photo:last-child {
   .photo:last-child {
     width: 50%;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -61,6 +62,7 @@ section > .photo:last-child {
   .photo:nth-child(4) {
     width: 33.3333%;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -79,4 +81,5 @@ section > .photo:last-child {
   .photo:nth-child(5) {
     width: 33.3333%;
   }
+
 }
